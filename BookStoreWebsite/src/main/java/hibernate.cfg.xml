@@ -6,19 +6,19 @@
     <session-factory>
         <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.password">password</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/bookstoredb</property>
-        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">fidko5caoij378u6</property>
+        <property name="hibernate.connection.url">jdbc:mysql://s0vb3nxm5byz0g9w:fidko5caoij378u6@pk1l4ihepirw9fob.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/n2vppbiccxru5t2t</property>
+        <property name="hibernate.connection.username">s0vb3nxm5byz0g9w</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.hbm2ddl.auto">none</property>
         <property name="hibernate.search.autoregister_listeners">true</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
-        <mapping class="com.bookstoredb.entity2.Customer" />
-        <mapping class="com.bookstoredb.entity2.BookOrder" />
-        <mapping class="com.bookstoredb.entity2.Category" />
-        <mapping class="com.bookstoredb.entity2.OrderDetail" />
-        <mapping class="com.bookstoredb.entity2.Users" />
-        <mapping class="com.bookstoredb.entity2.Review" />
-        <mapping class="com.bookstoredb.entity2.Book" />
+        <mapping class="com.bookstoredb.entity.Customer" />
+        <mapping class="com.bookstoredb.entity.BookOrder" />
+        <mapping class="com.bookstoredb.entity.Category" />
+        <mapping class="com.bookstoredb.entity.OrderDetail" />
+        <mapping class="com.bookstoredb.entity.Users" />
+        <mapping class="com.bookstoredb.entity.Review" />
+        <mapping class="com.bookstoredb.entity.Book" />
     </session-factory>
 </hibernate-configuration>
